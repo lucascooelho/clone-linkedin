@@ -4,13 +4,13 @@ import Panel from '../../Panel';
 
 import { Container, HashtagIcon } from './styles';
 
-const tags = ['rocketseat', 'next-level', 'node', 'react', 'developer'];
+const tags = ['rocketseat', 'react-native', 'asp.net', 'react', 'developer'];
 
 const HashtagPanel: React.FC = () => {
   return (
     <Container>
       <Panel>
-        <span className="title">Hashtags seguidas</span>
+        <span className="title">Followed tags</span>
 
         {tags.map((item) => (
           <span className="tag">
