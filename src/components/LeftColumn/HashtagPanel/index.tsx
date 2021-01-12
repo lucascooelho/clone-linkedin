@@ -4,7 +4,7 @@ import Panel from '../../Panel';
 
 import { Container, HashtagIcon } from './styles';
 
-const tags = ['rocketseat', 'react-native', 'asp.net', 'react', 'developer'];
+const tags = ['development', 'react-native', 'asp.net', 'react', 'developer'];
 
 const HashtagPanel: React.FC = () => {
   return (
