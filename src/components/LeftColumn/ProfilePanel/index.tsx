@@ -15,16 +15,16 @@ const ProfilePanel: React.FC = () => {
           className="profile-picture"
         />
         <h1>Lucas Coelho</h1>
-        <h2>Software Developer @ lucascooelho</h2>
+        <h2>Software Developer @lucascooelho</h2>
 
         <div className="separator"></div>
 
         <div className="key-value">
-          <span className="key">Quem viu seu perfil</span>
-          <span className="value">1.234</span>
+          <span className="key">Who viewed your profile</span>
+          <span className="value">987</span>
         </div>
         <div className="key-value">
-          <span className="key">Viram sua publicação</span>
+          <span className="key">Views of your post</span>
           <span className="value">321</span>
         </div>
       </Container>

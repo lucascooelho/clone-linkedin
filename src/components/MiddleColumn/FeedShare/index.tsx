@@ -22,7 +22,7 @@ const FeedShare: React.FC = () => {
         <div className="attachment">
           <button>
             <CameraIcon />
-            Foto
+            Photo
           </button>
           <button>
             <VideoCameraIcon />
@@ -30,11 +30,11 @@ const FeedShare: React.FC = () => {
           </button>
           <button>
             <DocumentIcon />
-            Documento
+            Document
           </button>
           <button>
             <ArticleIcon />
-            Escrever artigo
+            Write Article
           </button>
         </div>
       </Container>

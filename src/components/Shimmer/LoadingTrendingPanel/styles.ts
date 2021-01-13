@@ -22,7 +22,15 @@ export const Container = styled.div`
            padding-left: 10px;
 
            .row-skeleton {
-               // video at 1:02:15
+                height: 12px;
+
+                &:nth-child(1) {
+                    width: 50%;
+                }
+                &:nth-child(2) {
+                    width: 100%;
+                    margin-top: 10px;
+                }
            }
        }
    }

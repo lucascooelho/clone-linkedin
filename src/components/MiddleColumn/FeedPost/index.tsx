@@ -20,24 +20,24 @@ const FeedPost: React.FC = () => {
     <Panel>
       <Container>
         <Row className="heading">
-          <Avatar src="https://i.imgur.com/81RtXfT.jpg" alt="Rocketseat" />
+          <Avatar src="https://avatars1.githubusercontent.com/u/14133479?s=460&u=0c97a641297da52ef753cfbff3b7ff474ab66fab&v=4" alt="Rocketseat" />
           <Column>
-            <h3>Rocketseat</h3>
-            <h4>Instituição de ensino</h4>
-            <time>1 sem</time>
+            <h3>Lucascooelho</h3>
+            <h4>Software Developer</h4>
+            <time>1w</time>
           </Column>
         </Row>
 
         <PostImage
-          src="https://blog.rocketseat.com.br/content/images/2019/05/Painel.png"
-          alt="Rocketseat Blog"
+          src="https://raw.githubusercontent.com/lucascooelho/clone-twitter/master/src/assets/images/clone-twitter.JPG"
+          alt="Lucascooelho Github"
         />
 
         <Row className="likes">
           <span className="circle blue" />
           <span className="circle green" />
           <span className="circle red" />
-          <span className="number">49</span>
+          <span className="number">37</span>
         </Row>
 
         <Row>
@@ -47,19 +47,19 @@ const FeedPost: React.FC = () => {
         <Row className="actions">
           <button>
             <LikeIcon />
-            <span>Gostei</span>
+            <span>Like</span>
           </button>
           <button>
             <CommentIcon />
-            <span>Comentar</span>
+            <span>Comment</span>
           </button>
           <button>
             <ShareIcon />
-            <span>Compartilhar</span>
+            <span>Share</span>
           </button>
           <button>
             <SendIcon />
-            <span>Enviar</span>
+            <span>Send</span>
           </button>
         </Row>
       </Container>
